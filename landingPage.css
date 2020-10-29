@@ -1,0 +1,44 @@
+/* ------ CSS Script ------ */
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+	background: url(media/header.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+h1 {
+	font-size: 3rem; /* Relative size */
+	color: #e2dbdb;  /* RGBA = 226, 219, 219, 1 */
+}
+hr {
+	border-color: #f05f44; /* RGBA = 240, 95, 68, 1 */
+	border-width: 3px;
+	max-width: 65px; 
+	position: relative;
+}
+.buffer {
+	height: 10rem;
+}
+
+/* ------ CSS bootstrap button style ------ */
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+.btn-primary {
+	background-color: #f05f44; /* RGBA = 240, 95, 68, 1 */
+	border-color: #f05f44;
+}
+.btn-primary:hover {
+	background-color: #ee4b08; /* RGBA = 238, 75, 8, 1 */
+	border-color: #ee4b08;
+	border-width: 2px;
+}
+.btn-xl {
+	padding: 1rem 2rem;
+}
